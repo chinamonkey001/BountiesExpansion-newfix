@@ -1,0 +1,276 @@
+; Bounties Expansion 2.0.0 - 简体中文语言包
+; 编码必须为 UTF-8（无 BOM 亦可）。键名请勿修改，只改等号右边。
+; 换行用 \n 表示。以 ; 或 # 开头的行为注释。
+
+; ================= 界面 =================
+ui.prompt.inspect=查看通缉令
+ui.prompt.accept=接下悬赏
+ui.prompt.decline=离开
+ui.prompt.take=取下海报
+ui.prompt.read=阅读
+ui.prompt.putback=放回海报
+ui.board.header.alive=死活不论
+ui.board.header.dead=死活不论
+ui.prompt.back=返回
+ui.poster.header=通缉令
+ui.poster.avatar=头像
+ui.poster.crime=事由
+ui.poster.reward=赏金
+ui.poster.unknown=事由不明
+ui.poster.detail.title=案情详情
+ui.poster.detail.nodesc=该犯的卷宗尚未补全。
+ui.poster.detail.station=发布机关
+ui.poster.detail.station_suffix=警察局
+ui.poster.detail.lastseen=出没区域
+ui.poster.detail.lastseen_suffix=一带
+ui.cond.alive=活捉
+ui.cond.deadoralive=死活不论
+ui.blip.poster=悬赏海报
+ui.blip.hunting=悬赏追捕
+ui.area.Blackwater=黑水镇
+ui.area.Rhodes=罗兹
+ui.area.Valentine=瓦伦丁
+ui.area.Strawberry=草莓镇
+ui.area.Tumbleweed=风滚草镇
+ui.area.Armadillo=犰狳镇
+ui.area.SaintDenis=圣丹尼斯
+ui.sub.accepted=已揭下通缉令，目标区域已标注在地图上。
+ui.poster.hint=走近查看通缉令
+ui.sub.guards=目标身边还跟着几个帮手。
+ui.sub.rivals_poster=匪帮已经得到消息，正赶来拦你——他们不会让你把人带走。
+ui.sub.rivals_custody=匪帮同伙追上来了，想在半路把人抢回去。
+
+; ================= 任务 =================
+
+; Elias's Tradition (id 1)
+mission.1.target=艾尔西·格林
+mission.1.crime=谋杀
+mission.1.desc=该犯以亡兄之名继续作案，涉嫌在各地接连行凶。卷宗记载其专挑落单旅人下手，手法与多年前的旧案如出一辙。
+
+; The Turkish Runner (id 2)
+mission.2.target=亚历杭德罗·埃尔南德斯
+mission.2.crime=盗马
+mission.2.desc=该犯涉嫌盗取名贵马匹并转卖至黑市，多名牧场主联名控告。线报称其熟悉马性，逃逸极快。
+
+; GushkalaInata (id 3)
+mission.3.target=古什卡拉·伊纳塔
+mission.3.crime=持械抢劫
+mission.3.desc=该犯多次持械抢劫路人，作案范围遍及数个郡县，受害者不敢声张。
+
+; HankEnepay (id 4)
+mission.4.target=汉克·埃尼佩
+mission.4.crime=谋杀与抢劫
+mission.4.desc=该犯身负谋杀与抢劫双重罪名，曾多次结伙洗劫商队与旅人。目击者称其枪法精准、行事狠辣，得手后即向荒野逃窜。
+
+; NateNashoba (id 5)
+mission.5.target=内特·纳肖巴
+mission.5.crime=谋杀与抢劫
+mission.5.desc=该犯身负谋杀与抢劫双重罪名，曾多次结伙洗劫商队与旅人。目击者称其枪法精准、行事狠辣，得手后即向荒野逃窜。
+
+; CharlesMoon (id 6)
+mission.6.target=查尔斯·穆恩
+mission.6.crime=谋杀与抢劫
+mission.6.desc=该犯身负谋杀与抢劫双重罪名，曾多次结伙洗劫商队与旅人。目击者称其枪法精准、行事狠辣，得手后即向荒野逃窜。
+
+; Jacob Seed (id 7)
+mission.7.target=雅各布·西德
+mission.7.crime=军火盗窃
+mission.7.desc=该犯是一伙盗枪团伙的头目，长期向不法之徒供应军火。其营地戒备森严，多有哨兵巡守。
+
+; JaneBullion (id 8)
+mission.8.target=简·布利恩
+mission.8.crime=多项盗窃罪
+mission.8.desc=该犯身负数项盗窃罪名，作案手法老练，屡次从执法者手中逃脱。
+
+; BufordDuke (id 9)
+mission.9.target=布福德·杜克
+mission.9.crime=军火盗窃
+mission.9.desc=该犯涉嫌盗窃军火车队，流失的枪械已被用于多起劫案。军方与地方警察局联合悬赏，赏金随案情加重而上调。
+
+; HarperConnor (id 10)
+mission.10.target=哈珀·康纳
+mission.10.crime=军火盗窃
+mission.10.desc=该犯涉嫌盗窃军火车队，流失的枪械已被用于多起劫案。军方与地方警察局联合悬赏，赏金随案情加重而上调。
+
+; WallaceKnox (id 11)
+mission.11.target=华莱士·诺克斯
+mission.11.crime=军火盗窃
+mission.11.desc=该犯涉嫌盗窃军火车队，流失的枪械已被用于多起劫案。军方与地方警察局联合悬赏，赏金随案情加重而上调。
+
+; EmmettDavis (id 12)
+mission.12.target=埃米特·戴维斯
+mission.12.crime=军火盗窃
+mission.12.desc=该犯涉嫌盗窃军火车队，流失的枪械已被用于多起劫案。军方与地方警察局联合悬赏，赏金随案情加重而上调。
+
+; 安德鲁·克拉克 (id 13)
+mission.13.target=安德鲁·克拉克
+mission.13.crime=欺诈与盗窃
+mission.13.desc=他在瓦伦丁银行工作多年，被指控盗用银行资金。最后出现在瓦伦丁一带，行踪谨慎。
+
+; ChesterBurnett (id 14)
+mission.14.target=切斯特·伯内特
+mission.14.crime=谋杀
+mission.14.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; CullenBaker (id 15)
+mission.15.target=卡伦·贝克
+mission.15.crime=抢劫列车
+mission.15.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; JohnBull (id 16)
+mission.16.target=约翰·布尔
+mission.16.crime=抢劫列车
+mission.16.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; MarquisRussell (id 17)
+mission.17.target=马奎斯·拉塞尔
+mission.17.crime=抢劫列车
+mission.17.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; PeteEaton (id 18)
+mission.18.target=皮特·伊顿
+mission.18.crime=抢劫列车
+mission.18.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; JesseHill (id 19)
+mission.19.target=杰西·希尔
+mission.19.crime=谋杀
+mission.19.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; QuentinChigurh (id 20)
+mission.20.target=昆汀·奇古尔
+mission.20.crime=抢劫列车
+mission.20.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; TucoVilla (id 21)
+mission.21.target=图科·维拉
+mission.21.crime=双重谋杀
+mission.21.desc=该犯涉嫌双重谋杀，两名受害者均为当地农户。案发后其逃入荒野，行踪不定。
+
+; BillyWilson (id 22)
+mission.22.target=比利·威尔逊
+mission.22.crime=抢劫列车
+mission.22.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; JoseChavez (id 23)
+mission.23.target=何塞·查韦斯
+mission.23.crime=抢劫列车
+mission.23.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; PanchoDaniel (id 24)
+mission.24.target=潘乔·丹尼尔
+mission.24.crime=抢劫列车
+mission.24.desc=该犯参与多起列车劫案，专门洗劫货运车厢与旅客财物。铁路公司已加派护卫，并不断提高悬赏金额。
+
+; ArchStanton (id 25)
+mission.25.target=阿奇·斯坦顿
+mission.25.crime=抢劫驿站马车
+mission.25.desc=该犯纠集匪帮劫掠驿站马车，乘客多有伤亡。驿站公司悬赏缉拿，要求不论死活。
+
+; RichardMoore (id 26)
+mission.26.target=理查德·摩尔
+mission.26.crime=谋杀与抢劫
+mission.26.desc=该犯身负谋杀与抢劫双重罪名，曾多次结伙洗劫商队与旅人。目击者称其枪法精准、行事狠辣，得手后即向荒野逃窜。
+
+; JuanCortez (id 27)
+mission.27.target=胡安·科尔特斯
+mission.27.crime=谋杀
+mission.27.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; ClintonvonHagen (id 28)
+mission.28.target=克林顿·冯·哈根
+mission.28.crime=谋杀
+mission.28.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; CarlMartin (id 29)
+mission.29.target=卡尔顿·马丁
+mission.29.crime=谋杀
+mission.29.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; TreasuryPete (id 30)
+mission.30.target=财库皮特
+mission.30.crime=抢劫银行
+mission.30.desc=该犯策划并实施银行劫案，涉案金额巨大，作案后焚烧账册灭迹。银行方面已悬赏缉拿。
+
+; RobertCorbucci (id 31)
+mission.31.target=罗伯特·科尔布奇
+mission.31.crime=谋杀
+mission.31.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; LucienVinrouge (id 32)
+mission.32.target=吕西安·勒万鲁日
+mission.32.crime=谋杀
+mission.32.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; ChrisJanice (id 33)
+mission.33.target=克里斯托弗·贾尼斯
+mission.33.crime=谋杀
+mission.33.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; JustusBarnes (id 34)
+mission.34.target=贾斯特斯·巴恩斯
+mission.34.crime=谋杀
+mission.34.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; WilliamRogers (id 35)
+mission.35.target=威廉·罗杰斯
+mission.35.crime=谋杀
+mission.35.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; BobLane (id 36)
+mission.36.target=鲍勃·莱恩
+mission.36.crime=谋杀
+mission.36.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; GeorgeCoen (id 37)
+mission.37.target=乔治·科恩
+mission.37.crime=谋杀
+mission.37.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; BuckHicox (id 38)
+mission.38.target=巴克·希科克斯
+mission.38.crime=谋杀
+mission.38.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; JohnEastwood (id 39)
+mission.39.target=约翰·伊斯特伍德
+mission.39.crime=谋杀
+mission.39.desc=该犯涉嫌多起谋杀，手法残忍，受害者多为无辜平民。卷宗记载其行凶后常弃尸荒野，地方治安官已悬赏缉拿。此人随身携带武器，接近时务必小心。
+
+; ===== 2026-11-21 新增 =====
+; 手上已有通缉令时，别的告示板拒绝再取一张。
+ui.hint.busy=你手上已经有一份通缉令，先把它了结。
+; 头顶标记的三段：前缀 / 名字 / 距离，前缀留空则不显示。
+ui.target.wanted=通缉
+ui.target.distance=%dm
+; 死活不论的海报会同时给出两个价。
+ui.poster.alive=活捉
+ui.poster.dead=击毙
+; 任务中重新翻阅卷宗。
+ui.hint.review=任务中按 F7 可随时查看通缉令。
+ui.prompt.review=查看通缉令
+ui.prompt.close=收起
+
+; ===== 补齐 step21-23 新增的键（缺了就会回退成英文） =====
+mission.13.money=钱在哪里？
+mission.13.nearby=安德鲁就在附近，正坐在营火旁。
+mission.13.threat=把钱交出来，否则……
+ui.fail.innocent=任务失败，你杀了一个无辜的人。
+ui.fail.must_alive=任务失败。目标必须活捉！
+ui.fail.target_away=目标正在逃离！
+ui.fail.target_far=目标正在跑远！
+ui.fail.target_lost=任务失败，目标逃脱
+ui.poster.issuedby=发布机关
+ui.poster.body.police_dept=被以下警察局通缉：
+ui.poster.wanted=通缉
+ui.sub.guards.prefix=目标身边还有护卫 
+ui.sub.guards.suffix= 人。
+ui.sub.killed_alive=把%s的尸体送到%s警局后院，再回来领取赏金。
+
+; ===== 早期就有、后来没进包的键（恢复原有中文） =====
+ui.hint.restart=过几个游戏小时后，可以重新接取失败的任务。
+mission.13.hint=提示：安德鲁被控盗用他任职银行的资金……
+mission.13.escalate=让安德鲁明白你是认真的。
+
+ui.sub.drop_body=把尸体从马上卸下，下马后再交给警局。
+ui.sub.cell_body=把人扛进牢房，放下后再离开。

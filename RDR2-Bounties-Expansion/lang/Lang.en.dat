@@ -1,0 +1,272 @@
+; Bounties Expansion 2.0.0 - English language pack
+; Encoding must be UTF-8. Do not rename keys, only edit values.
+
+; ================= UI =================
+ui.prompt.inspect=Inspect bounty poster
+ui.prompt.accept=Accept bounty
+ui.prompt.decline=Leave
+ui.prompt.back=Back
+ui.poster.header=WANTED
+ui.poster.avatar=PORTRAIT
+ui.poster.crime=Crime
+ui.poster.reward=Reward
+ui.poster.unknown=Unknown
+ui.poster.detail.title=Case file
+ui.poster.detail.nodesc=No case file on record yet.
+ui.poster.detail.station=Issued by
+ui.poster.detail.station_suffix=Police Department
+ui.poster.detail.lastseen=Last seen
+ui.poster.detail.lastseen_suffix=area
+ui.cond.alive=Wanted alive
+ui.cond.deadoralive=Dead or alive
+ui.blip.poster=Bounty poster
+ui.blip.hunting=Bounty hunting
+ui.area.Blackwater=Blackwater
+ui.area.Rhodes=Rhodes
+ui.area.Valentine=Valentine
+ui.area.Strawberry=Strawberry
+ui.area.Tumbleweed=Tumbleweed
+ui.area.Armadillo=Armadillo
+ui.area.SaintDenis=Saint Denis
+ui.sub.accepted=Poster taken. The target's area is marked on your map.
+ui.poster.hint=Step closer to inspect
+
+; ================= Missions =================
+
+; Elias's Tradition (id 1)
+mission.1.target=Elsie Green
+mission.1.crime=Murder
+mission.1.desc=
+
+; The Turkish Runner (id 2)
+mission.2.target=Alejandro Hernandez
+mission.2.crime=Horse theft
+mission.2.desc=
+
+; GushkalaInata (id 3)
+mission.3.target=Gushkala Inata
+mission.3.crime=Robbing
+mission.3.desc=
+
+; HankEnepay (id 4)
+mission.4.target=Hank Enepay
+mission.4.crime=Murder and Robbery
+mission.4.desc=
+
+; NateNashoba (id 5)
+mission.5.target=Nate Nashoba
+mission.5.crime=Murder and Robbery
+mission.5.desc=
+
+; CharlesMoon (id 6)
+mission.6.target=Charles Moon
+mission.6.crime=Murder and Robbery
+mission.6.desc=
+
+; Jacob Seed (id 7)
+mission.7.target=Jacob Seed
+mission.7.crime=Fire Arms Theft
+mission.7.desc=
+
+; JaneBullion (id 8)
+mission.8.target=Jane Bullion
+mission.8.crime=Multiple counts of theft
+mission.8.desc=
+
+; BufordDuke (id 9)
+mission.9.target=Buford Duke
+mission.9.crime=Fire Arms Theft
+mission.9.desc=
+
+; HarperConnor (id 10)
+mission.10.target=Harper Connor
+mission.10.crime=Fire Arms Theft
+mission.10.desc=
+
+; WallaceKnox (id 11)
+mission.11.target=Wallace Knox
+mission.11.crime=Fire Arms Theft
+mission.11.desc=
+
+; EmmettDavis (id 12)
+mission.12.target=Emmett Davis
+mission.12.crime=Fire Arms Theft
+mission.12.desc=
+
+; 安德鲁·克拉克 (id 13)
+mission.13.target=安德鲁·克拉克
+mission.13.crime=欺诈与盗窃
+mission.13.desc=
+
+; ChesterBurnett (id 14)
+mission.14.target=Chester Burnett
+mission.14.crime=Murder
+mission.14.desc=
+
+; CullenBaker (id 15)
+mission.15.target=Cullen Baker
+mission.15.crime=Train Robbery
+mission.15.desc=
+
+; JohnBull (id 16)
+mission.16.target=John Bull
+mission.16.crime=Train Robbery
+mission.16.desc=
+
+; MarquisRussell (id 17)
+mission.17.target=Marquis Russell
+mission.17.crime=Train Robbery
+mission.17.desc=
+
+; PeteEaton (id 18)
+mission.18.target=Pete Eaton
+mission.18.crime=Train Robbery
+mission.18.desc=
+
+; JesseHill (id 19)
+mission.19.target=Jesse Hill
+mission.19.crime=Murder
+mission.19.desc=
+
+; QuentinChigurh (id 20)
+mission.20.target=Quentin Chigurh
+mission.20.crime=Train Robbery
+mission.20.desc=
+
+; TucoVilla (id 21)
+mission.21.target=Tuco Villa
+mission.21.crime=Double Murder
+mission.21.desc=
+
+; BillyWilson (id 22)
+mission.22.target=Billy Wilson
+mission.22.crime=Train Robbery
+mission.22.desc=
+
+; JoseChavez (id 23)
+mission.23.target=Jose Chavez
+mission.23.crime=Train Robbery
+mission.23.desc=
+
+; PanchoDaniel (id 24)
+mission.24.target=Pancho Daniel
+mission.24.crime=Train Robbery
+mission.24.desc=
+
+; ArchStanton (id 25)
+mission.25.target=Arch Stanton
+mission.25.crime=Stagecoach robbery
+mission.25.desc=
+
+; RichardMoore (id 26)
+mission.26.target=Richard Moore
+mission.26.crime=Murder and Robbery
+mission.26.desc=
+
+; JuanCortez (id 27)
+mission.27.target=Juan Cortez
+mission.27.crime=Murder
+mission.27.desc=
+
+; ClintonvonHagen (id 28)
+mission.28.target=Clinton von Hagen
+mission.28.crime=Murder
+mission.28.desc=
+
+; CarlMartin (id 29)
+mission.29.target=Carlton Martin
+mission.29.crime=Murder
+mission.29.desc=
+
+; TreasuryPete (id 30)
+mission.30.target=Treasury Pete
+mission.30.crime=Bank Robbery
+mission.30.desc=
+
+; RobertCorbucci (id 31)
+mission.31.target=Robert Corbucci
+mission.31.crime=Murder
+mission.31.desc=
+
+; LucienVinrouge (id 32)
+mission.32.target=Lucien le Vinrouge
+mission.32.crime=Murder
+mission.32.desc=
+
+; ChrisJanice (id 33)
+mission.33.target=Christopher Janice
+mission.33.crime=Murder
+mission.33.desc=
+
+; JustusBarnes (id 34)
+mission.34.target=Justus Barnes
+mission.34.crime=Murder
+mission.34.desc=
+
+; WilliamRogers (id 35)
+mission.35.target=William Rogers
+mission.35.crime=Murder
+mission.35.desc=
+
+; BobLane (id 36)
+mission.36.target=Bob Lane
+mission.36.crime=Murder
+mission.36.desc=
+
+; GeorgeCoen (id 37)
+mission.37.target=George Coen
+mission.37.crime=Murder
+mission.37.desc=
+
+; BuckHicox (id 38)
+mission.38.target=Buck Hicox
+mission.38.crime=Murder
+mission.38.desc=
+
+; JohnEastwood (id 39)
+mission.39.target=John Eastwood
+mission.39.crime=Murder
+mission.39.desc=
+
+; ===== 2026-11-21 additions =====
+; A second poster is refused while one bounty is already carried.
+ui.hint.busy=You are already carrying a bounty. Finish it first.
+; Target marker: prefix / name / distance. Leave the prefix empty to drop it.
+ui.target.wanted=WANTED
+ui.target.distance=%dm
+; A dead-or-alive poster prints both prices.
+ui.poster.alive=ALIVE
+ui.poster.dead=DEAD
+; Reading the case file again while the bounty runs.
+ui.hint.review=Press F7 to read the case file at any time.
+ui.prompt.review=Read case file
+ui.prompt.close=Close
+
+; ===== keys added in step21-23 (missing entries fall back to English) =====
+mission.13.money=Where is the money?
+mission.13.nearby=Andrew is nearby, sitting by the campfire.
+mission.13.threat=Hand over the money, or else.
+ui.fail.innocent=Bounty failed, you killed an innocent man.
+ui.fail.must_alive=Bounty failed. The target must be taken alive!
+ui.fail.target_away=The target is getting away!
+ui.fail.target_far=The target is getting too far!
+ui.fail.target_lost=Bounty failed, target lost.
+ui.poster.issuedby=Issued by
+ui.poster.body.police_dept=Wanted by the following police department:
+ui.poster.wanted=WANTED
+ui.sub.guards.prefix=The target has 
+ui.sub.guards.suffix= guards with him.
+ui.sub.killed_alive=The target is dead. Only the body can be handed in, take it to the station.
+
+; ===== remaining keys used by the script =====
+ui.board.header.alive=WANTED - DEAD OR ALIVE
+ui.board.header.dead=WANTED - DEAD OR ALIVE
+ui.prompt.putback=Put the poster back
+ui.prompt.read=Read the details
+ui.prompt.take=Take the poster
+ui.sub.rivals_poster=Bounty hunters want this bounty too and are riding in to take him.
+ui.sub.rivals_custody=The gang is closing in to spring their man.
+ui.sub.rivals_poster=The gang heard you are coming and is riding out to stop you taking their man.
+ui.sub.drop_body=Unload the body from your horse and step down before handing it in.
+ui.sub.cell_body=Carry the prisoner into the cell and set him down.
+ui.sub.killed_alive=Take %s's body to the %s police station backyard, then come back for the reward.

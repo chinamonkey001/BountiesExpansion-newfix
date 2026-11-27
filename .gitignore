@@ -1,0 +1,17 @@
+# ---- 构建产物 / build output ----
+.build/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.asi
+BountiesExpansion.dat
+
+# ---- 备份与日志 / backups and logs ----
+*.bak
+*.bak-*
+*.log
+
+# ---- 本地临时 / local scratch ----
+tmp/
+打包/

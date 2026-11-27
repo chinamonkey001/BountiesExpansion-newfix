@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Src\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Src\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Src\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachedRope.cpp">
+      <Filter>Src\AttachedRopes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachedRopesHandling.cpp">
+      <Filter>Src\AttachedRopes</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMissionExecutor.cpp">
+      <Filter>Src\Game\BountyMissions</Filter>
+    </ClCompile>
+    <ClCompile Include="BountiesManager.cpp">
+      <Filter>Src\Game\BountyMissions</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Src\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EliasTraditionExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\ElsieGreen</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIDrawer.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BountiesMenu.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ModProgress.cpp">
+      <Filter>Src\Game\ModProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="MapArea.cpp">
+      <Filter>Src\Game\MapArea</Filter>
+    </ClCompile>
+    <ClCompile Include="MapAreasManager.cpp">
+      <Filter>Src\Game\MapArea</Filter>
+    </ClCompile>
+    <ClCompile Include="Autosave.cpp">
+      <Filter>Src\Game\ModProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="BountyMissionsFactory.cpp">
+      <Filter>Src\Game\BountyMissions</Filter>
+    </ClCompile>
+    <ClCompile Include="TurkishRunnerExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\AlejandroHernandez</Filter>
+    </ClCompile>
+    <ClCompile Include="JacobSeedExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JacobSeed</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpMessages.cpp">
+      <Filter>Src\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AndrewClarkExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\AndrewClark</Filter>
+    </ClCompile>
+    <ClCompile Include="Ped.cpp">
+      <Filter>Src\Game\Ped</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversation.cpp">
+      <Filter>Src\Game\Ped\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Delay.cpp">
+      <Filter>Src\Game\Ped\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncPlayable.cpp">
+      <Filter>Src\Game\Ped\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="RobberyWarningShot.cpp">
+      <Filter>Src\Game\BountyMissions\AndrewClark\RobberyInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="RobberyAimAtVictim.cpp">
+      <Filter>Src\Game\BountyMissions\AndrewClark\RobberyInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecuteVictimInteraction.h">
+      <Filter>Src\Game\BountyMissions\ElsieGreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Stopwatch.cpp">
+      <Filter>Src\Script\Stopwatch</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStopwatch.cpp">
+      <Filter>Src\Script\Stopwatch</Filter>
+    </ClCompile>
+    <ClCompile Include="JesseHillExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JesseHill</Filter>
+    </ClCompile>
+    <ClCompile Include="QuentinChigurhExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\QuentinChigurh</Filter>
+    </ClCompile>
+    <ClCompile Include="TucoVillaExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\TucoVilla</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchStantonExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\ArchStanton</Filter>
+    </ClCompile>
+    <ClCompile Include="RichardMooreExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\RichardMoore</Filter>
+    </ClCompile>
+    <ClCompile Include="JuanCortezExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JuanCortez</Filter>
+    </ClCompile>
+    <ClCompile Include="ClintonvonHagenExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\ClintonvonHagen</Filter>
+    </ClCompile>
+    <ClCompile Include="TreasuryPeteExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\TreasuryPete</Filter>
+    </ClCompile>
+    <ClCompile Include="RobertCorbucciExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\RobertCorbucci</Filter>
+    </ClCompile>
+    <ClCompile Include="JaneBullionExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JaneBullion</Filter>
+    </ClCompile>
+    <ClCompile Include="GushkalaInataExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\GushkalaInata</Filter>
+    </ClCompile>
+    <ClCompile Include="HankEnepayExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\HankEnepay</Filter>
+    </ClCompile>
+    <ClCompile Include="NateNashobaExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\NateNashoba</Filter>
+    </ClCompile>
+    <ClCompile Include="JoseChavezExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JoseChavez</Filter>
+    </ClCompile>
+    <ClCompile Include="PanchoDanielExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\PanchoDaniel</Filter>
+    </ClCompile>
+    <ClCompile Include="CullenBakerExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\CullenBaker</Filter>
+    </ClCompile>
+    <ClCompile Include="JohnBullExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JohnBull</Filter>
+    </ClCompile>
+    <ClCompile Include="MarquisRussellExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\MarquisRussell</Filter>
+    </ClCompile>
+    <ClCompile Include="PeteEatonExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\PeteEaton</Filter>
+    </ClCompile>
+    <ClCompile Include="EmmettDavisExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\EmmettDavis</Filter>
+    </ClCompile>
+    <ClCompile Include="HarperConnorExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\HarperConnor</Filter>
+    </ClCompile>
+    <ClCompile Include="WallaceKnoxExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\WallaceKnox</Filter>
+    </ClCompile>
+    <ClCompile Include="ChrisJaniceExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\ChrisJanice</Filter>
+    </ClCompile>
+    <ClCompile Include="MikeSandersExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\MikeSanders</Filter>
+    </ClCompile>
+    <ClCompile Include="JustusBarnesExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JustusBarnes</Filter>
+    </ClCompile>
+    <ClCompile Include="GeorgeCoenExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\GeorgeCoen</Filter>
+    </ClCompile>
+    <ClCompile Include="JohnEastwoodExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\JohnEastwood</Filter>
+    </ClCompile>
+    <ClCompile Include="WilliamRogersExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\WilliamRogers</Filter>
+    </ClCompile>
+    <ClCompile Include="PedBehavior.cpp">
+      <Filter>Src\Game\Ped</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericGuardingBehavior.cpp">
+      <Filter>Src\Game\Ped</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardsGroup.cpp">
+      <Filter>Src\Game\Ped</Filter>
+    </ClCompile>
+    <ClCompile Include="blips.cpp" />
+    <ClCompile Include="Vehicles.cpp" />
+    <ClCompile Include="Weapons.cpp" />
+    <ClCompile Include="world.cpp" />
+    <ClCompile Include="Logger.cpp">
+      <Filter>Src\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ConversationLine.cpp">
+      <Filter>Src\Game\Ped\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="ChesterBurnettExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\ChesterBurnett</Filter>
+    </ClCompile>
+    <ClCompile Include="CharlesMoonExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\CharlesMoon</Filter>
+    </ClCompile>
+    <ClCompile Include="BillyWilsonExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\BillyWilson</Filter>
+    </ClCompile>
+    <ClCompile Include="BobLaneExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\BobLane</Filter>
+    </ClCompile>
+    <ClCompile Include="BuckHicoxExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\BuckHicox</Filter>
+    </ClCompile>
+    <ClCompile Include="BufordDukeExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\BufordDuke</Filter>
+    </ClCompile>
+    <ClCompile Include="CarlMartinExecutor.cpp">
+      <Filter>Src\Game\BountyMissions\CarlMartin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\enums.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\natives.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Src\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Src\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachedRope.h">
+      <Filter>Src\AttachedRopes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachedRopesHanding.h">
+      <Filter>Src\AttachedRopes</Filter>
+    </ClInclude>
+    <ClInclude Include="BountyMissionData.h">
+      <Filter>Src\Game\BountyMissions</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMissionExecutor.h">
+      <Filter>Src\Game\BountyMissions</Filter>
+    </ClInclude>
+    <ClInclude Include="MapArea.h">
+      <Filter>Src\Game\MapArea</Filter>
+    </ClInclude>
+    <ClInclude Include="BountiesManager.h">
+      <Filter>Src\Game\BountyMissions</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Src\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EliasTraditionExecutor.h">
+      <Filter>Src\Game\BountyMissions\ElsieGreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIDrawer.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BountiesMenu.h">
+      <Filter>Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ModProgress.h">
+      <Filter>Src\Game\ModProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAreasManager.h">
+      <Filter>Src\Game\MapArea</Filter>
+    </ClInclude>
+    <ClInclude Include="Autosave.h">
+      <Filter>Src\Game\ModProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="BountyDefinitions.h">
+      <Filter>Src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BountyMissionsFactory.h">
+      <Filter>Src\Game\BountyMissions</Filter>
+    </ClInclude>
+    <ClInclude Include="TurkishRunnerExecutor.h">
+      <Filter>Src\Game\BountyMissions\AlejandroHernandez</Filter>
+    </ClInclude>
+    <ClInclude Include="JacobSeedExecutor.h">
+      <Filter>Src\Game\BountyMissions\JacobSeed</Filter>
+    </ClInclude>
+    <ClInclude Include="AndrewClarkExecutor.h">
+      <Filter>Src\Game\BountyMissions\AndrewClark</Filter>
+    </ClInclude>
+    <ClInclude Include="Ped.h">
+      <Filter>Src\Game\Ped</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversation.h">
+      <Filter>Src\Game\Ped\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="RobberyInteraction.h">
+      <Filter>Src\Game\BountyMissions\AndrewClark\RobberyInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Stopwatch.h">
+      <Filter>Src\Script\Stopwatch</Filter>
+    </ClInclude>
+    <ClInclude Include="JesseHillExecutor.h">
+      <Filter>Src\Game\BountyMissions\JesseHill</Filter>
+    </ClInclude>
+    <ClInclude Include="QuentinChigurhExecutor.h">
+      <Filter>Src\Game\BountyMissions\QuentinChigurh</Filter>
+    </ClInclude>
+    <ClInclude Include="TucoVillaExecutor.h">
+      <Filter>Src\Game\BountyMissions\TucoVilla</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchStantonExecutor.h">
+      <Filter>Src\Game\BountyMissions\ArchStanton</Filter>
+    </ClInclude>
+    <ClInclude Include="RichardMooreExecutor.h">
+      <Filter>Src\Game\BountyMissions\RichardMoore</Filter>
+    </ClInclude>
+    <ClInclude Include="JuanCortezExecutor.h">
+      <Filter>Src\Game\BountyMissions\JuanCortez</Filter>
+    </ClInclude>
+    <ClInclude Include="ClintonvonHagenExecutor.h">
+      <Filter>Src\Game\BountyMissions\ClintonvonHagen</Filter>
+    </ClInclude>
+    <ClInclude Include="TreasuryPeteExecutor.h">
+      <Filter>Src\Game\BountyMissions\TreasuryPete</Filter>
+    </ClInclude>
+    <ClInclude Include="RobertCorbucciExecutor.h">
+      <Filter>Src\Game\BountyMissions\RobertCorbucci</Filter>
+    </ClInclude>
+    <ClInclude Include="JaneBullionExecutor.h">
+      <Filter>Src\Game\BountyMissions\JaneBullion</Filter>
+    </ClInclude>
+    <ClInclude Include="GushkalaInataExecutor.h">
+      <Filter>Src\Game\BountyMissions\GushkalaInata</Filter>
+    </ClInclude>
+    <ClInclude Include="ChesterBurnettExecutor.h">
+      <Filter>Src\Game\BountyMissions\ChesterBurnett</Filter>
+    </ClInclude>
+    <ClInclude Include="HankEnepayExecutor.h">
+      <Filter>Src\Game\BountyMissions\HankEnepay</Filter>
+    </ClInclude>
+    <ClInclude Include="NateNashobaExecutor.h">
+      <Filter>Src\Game\BountyMissions\NateNashoba</Filter>
+    </ClInclude>
+    <ClInclude Include="CharlesMoonExecutor.h">
+      <Filter>Src\Game\BountyMissions\CharlesMoon</Filter>
+    </ClInclude>
+    <ClInclude Include="BillyWilsonExecutor.h">
+      <Filter>Src\Game\BountyMissions\BillyWilson</Filter>
+    </ClInclude>
+    <ClInclude Include="JoseChavezExecutor.h">
+      <Filter>Src\Game\BountyMissions\JoseChavez</Filter>
+    </ClInclude>
+    <ClInclude Include="PanchoDanielExecutor.h">
+      <Filter>Src\Game\BountyMissions\PanchoDaniel</Filter>
+    </ClInclude>
+    <ClInclude Include="CullenBakerExecutor.h">
+      <Filter>Src\Game\BountyMissions\CullenBaker</Filter>
+    </ClInclude>
+    <ClInclude Include="JohnBullExecutor.h">
+      <Filter>Src\Game\BountyMissions\JohnBull</Filter>
+    </ClInclude>
+    <ClInclude Include="MarquisRussellExecutor.h">
+      <Filter>Src\Game\BountyMissions\MarquisRussell</Filter>
+    </ClInclude>
+    <ClInclude Include="PeteEatonExecutor.h">
+      <Filter>Src\Game\BountyMissions\PeteEaton</Filter>
+    </ClInclude>
+    <ClInclude Include="BufordDukeExecutor.h">
+      <Filter>Src\Game\BountyMissions\BufordDuke</Filter>
+    </ClInclude>
+    <ClInclude Include="EmmettDavisExecutor.h">
+      <Filter>Src\Game\BountyMissions\EmmettDavis</Filter>
+    </ClInclude>
+    <ClInclude Include="HarperConnorExecutor.h">
+      <Filter>Src\Game\BountyMissions\HarperConnor</Filter>
+    </ClInclude>
+    <ClInclude Include="WallaceKnoxExecutor.h">
+      <Filter>Src\Game\BountyMissions\WallaceKnox</Filter>
+    </ClInclude>
+    <ClInclude Include="CarlMartinExecutor.h">
+      <Filter>Src\Game\BountyMissions\CarlMartin</Filter>
+    </ClInclude>
+    <ClInclude Include="ChrisJaniceExecutor.h">
+      <Filter>Src\Game\BountyMissions\ChrisJanice</Filter>
+    </ClInclude>
+    <ClInclude Include="MikeSandersExecutor.h">
+      <Filter>Src\Game\BountyMissions\MikeSanders</Filter>
+    </ClInclude>
+    <ClInclude Include="JustusBarnesExecutor.h">
+      <Filter>Src\Game\BountyMissions\JustusBarnes</Filter>
+    </ClInclude>
+    <ClInclude Include="BobLaneExecutor.h">
+      <Filter>Src\Game\BountyMissions\BobLane</Filter>
+    </ClInclude>
+    <ClInclude Include="BuckHicoxExecutor.h">
+      <Filter>Src\Game\BountyMissions\BuckHicox</Filter>
+    </ClInclude>
+    <ClInclude Include="GeorgeCoenExecutor.h">
+      <Filter>Src\Game\BountyMissions\GeorgeCoen</Filter>
+    </ClInclude>
+    <ClInclude Include="JohnEastwoodExecutor.h">
+      <Filter>Src\Game\BountyMissions\JohnEastwood</Filter>
+    </ClInclude>
+    <ClInclude Include="WilliamRogersExecutor.h">
+      <Filter>Src\Game\BountyMissions\WilliamRogers</Filter>
+    </ClInclude>
+    <ClInclude Include="PedBehavior.h">
+      <Filter>Src\Game\Ped</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericGuardingBehavior.h">
+      <Filter>Src\Game\Ped</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardingDefinitions.h">
+      <Filter>Src\Game\Ped</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardsGroup.h">
+      <Filter>Src\Game\Ped</Filter>
+    </ClInclude>
+    <ClInclude Include="blips.h" />
+    <ClInclude Include="Vehicles.h" />
+    <ClInclude Include="Weapons.h" />
+    <ClInclude Include="world.h" />
+    <ClInclude Include="Logger.h">
+      <Filter>Src\Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{fe82bd4a-2d14-486a-8be5-8bf6b50a2414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{99988ac4-ab5d-4a8e-ad13-6426aa838402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\AttachedRopes">
+      <UniqueIdentifier>{f9123656-93e1-4279-9c47-af84e66142b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Script">
+      <UniqueIdentifier>{1ab8b354-9e05-4e09-af58-2ecd61348e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\UI">
+      <UniqueIdentifier>{df612e2a-d78f-4fda-a471-50037b460b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game">
+      <UniqueIdentifier>{6db80ad3-fbb5-4bb0-9a52-c14b20395c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\MapArea">
+      <UniqueIdentifier>{70959cf0-1d19-4a91-8d81-ef600696d34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions">
+      <UniqueIdentifier>{c2f7fb9b-ee24-49db-bc4c-f591fc990b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\ModProgress">
+      <UniqueIdentifier>{304e4802-3468-45cc-ba72-42c6b67b91ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\AlejandroHernandez">
+      <UniqueIdentifier>{7d21da97-5ed7-4912-9fcd-09fc08266b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JacobSeed">
+      <UniqueIdentifier>{3f7eb3d0-41de-4b81-8bb2-413eb6e0760d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\AndrewClark">
+      <UniqueIdentifier>{4fc86ec7-af10-4fba-bf6d-146dc4bd3f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Ped">
+      <UniqueIdentifier>{9a046c40-3698-4c88-bb4e-70551b41ac91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Ped\Interaction">
+      <UniqueIdentifier>{aac89977-7778-4b3c-9c1f-6c44b1524484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Script\Stopwatch">
+      <UniqueIdentifier>{5a0b2eb8-9ead-4236-b7b4-9f5f31941990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\AndrewClark\RobberyInteraction">
+      <UniqueIdentifier>{14748df6-76e8-49b5-adc8-22f3cfff73bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\QuentinChigurh">
+      <UniqueIdentifier>{44f7db77-dad7-4b8b-ad5d-6902af723603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\TucoVilla">
+      <UniqueIdentifier>{91a17424-9a72-4d21-b998-40e1cbda3adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\ArchStanton">
+      <UniqueIdentifier>{1d87b91e-d612-4cc2-bae0-f8fa98d44096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\RichardMoore">
+      <UniqueIdentifier>{1c2b32f1-3bc7-47a1-b141-0197cb408355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JuanCortez">
+      <UniqueIdentifier>{3d71b22e-27c6-43fb-ab08-9a6d51b13804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\ClintonvonHagen">
+      <UniqueIdentifier>{7d0af393-c40b-436c-b881-700ecda636d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\TreasuryPete">
+      <UniqueIdentifier>{88e3a328-acbb-4254-a964-1e6d53a76c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JesseHill">
+      <UniqueIdentifier>{ee3fca34-f875-4cad-a058-4f3ff073997e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\RobertCorbucci">
+      <UniqueIdentifier>{13a7900d-35d5-4e64-85e7-20d941cdcf6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\ElsieGreen">
+      <UniqueIdentifier>{c88306d9-f633-4c36-ba1d-a353e4b24b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JaneBullion">
+      <UniqueIdentifier>{80a8fa0d-2441-4ca2-9962-90c830e49db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\GushkalaInata">
+      <UniqueIdentifier>{4bf2cb49-0dee-4267-934e-cea8081a2466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\ChesterBurnett">
+      <UniqueIdentifier>{a7b93fb2-9aad-4250-976a-df817905b0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\HankEnepay">
+      <UniqueIdentifier>{a3fa0d46-d169-43f8-b199-fad690ffa74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\NateNashoba">
+      <UniqueIdentifier>{a8f69bf6-3d24-4394-b66b-20f872c89375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\CharlesMoon">
+      <UniqueIdentifier>{4f054e8d-3b5b-4fd3-8413-679fa35e80ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\BillyWilson">
+      <UniqueIdentifier>{83b0516a-7a1a-43c6-a189-a948f1d3cf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JoseChavez">
+      <UniqueIdentifier>{9939d545-748a-47d0-a1b3-ea0712472359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\PanchoDaniel">
+      <UniqueIdentifier>{50a0632a-9a18-4d5c-b479-f3064a4f85e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JohnBull">
+      <UniqueIdentifier>{038fb7f9-791d-4fb5-8169-1f17d0599212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\PeteEaton">
+      <UniqueIdentifier>{3f87d348-5d00-4f23-ba0a-336250e67e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\MarquisRussell">
+      <UniqueIdentifier>{30a41ca8-f485-4861-ae3e-7f9f0fc62257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\CullenBaker">
+      <UniqueIdentifier>{ad67c6f6-4a29-4064-942a-67815b969015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\BufordDuke">
+      <UniqueIdentifier>{7e14b52b-1842-4934-ba26-3ab6f142fb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\EmmettDavis">
+      <UniqueIdentifier>{5d7b884e-11a4-4074-ac7f-625c995931f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\HarperConnor">
+      <UniqueIdentifier>{91059a99-9013-4526-a710-e784ed77d5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\WallaceKnox">
+      <UniqueIdentifier>{a61d1693-6cc8-4061-88cb-dd9382eccdd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\MikeSanders">
+      <UniqueIdentifier>{db21c448-26ed-41cb-a986-6d61a71fa532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\CarlMartin">
+      <UniqueIdentifier>{34073929-8c0a-4bb4-b2f7-69baf979e744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\ChrisJanice">
+      <UniqueIdentifier>{9ab2865d-fd06-45d6-9660-b930a7218b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JustusBarnes">
+      <UniqueIdentifier>{3aa557ad-27cc-4469-a094-7059a8ef8773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\WilliamRogers">
+      <UniqueIdentifier>{079893e7-f556-47d8-acf9-90be63b0daf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\BobLane">
+      <UniqueIdentifier>{f39185eb-de66-4cfe-8eeb-f4454d00eb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\GeorgeCoen">
+      <UniqueIdentifier>{c7a2689b-df77-4573-9045-4b9839ac951f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\BuckHicox">
+      <UniqueIdentifier>{671d4719-a4bc-40b4-9967-5905c162b238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\BountyMissions\JohnEastwood">
+      <UniqueIdentifier>{70fe7266-abce-478b-90ba-e3c3581e4b82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
